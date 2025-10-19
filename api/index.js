@@ -3,11 +3,11 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
-const connectDB = require("./config/db");
-const authRoute = require('./routes/authRoute')
-const userRoute = require("./routes/userRoute")
-const taskRoute = require("./routes/taskRoute")
-const reportRoute = require("./routes/reportRoute")
+const connectDB = require("../config/db");
+const authRoute = require('../routes/authRoute')
+const userRoute = require("../routes/userRoute")
+const taskRoute = require("../routes/taskRoute")
+const reportRoute = require("../routes/reportRoute")
 const app = express();
 
 app.use(
